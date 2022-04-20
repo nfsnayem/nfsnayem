@@ -1,43 +1,60 @@
-# Data Types ---
-a = "Pythan"
-b = 4
-c = 4.56
-d = 20j
-print(a, type(a))
-print(b, type(b))
-print(c, type(c))
-print(d, type(d))
-# Sequence type----
-x = ["apple", "banana", "cherry"]
-y = ("king", "khan", "boss")
-z = range(6)
+//stack using Linked List
+public class StackDS {
+    private static class Node {
+        int data;
+        Node next;
 
-print(x, type(x))
-print(y, type(y))
-print(z, type(z))
+        Node(int data) {
+            this.data = data;
+            next = null;
+        }
+    }
 
-# Mapping Type---
-q = {"name" : "nayem", "age" : 36}
-print(q, type(q))
+    static class Stack {
+        public static Node head = null;
+        public static void push(int data) {
+            Node newNode = new Node(data);
 
-#  set type----
-o = {"apple", "banana", "cherry"}
-p = frozenset({"nayem", "king is", "back"})
+            if(head == null) {
+                head = newNode;
+                return;
+            }
+            newNode.next = head;
+            head = newNode;
+        }
 
-print(o, type(o))
-print(p, type(p))
+        public static boolean isEmpty() {
+            return head == null;
+        }
 
-#Boolean type---
+        public static int pop() {
+            if(isEmpty()) {
+                return -1;
+            }
+            Node top = head;
+            head = head.next;
+            return top.data;
+        }
 
-k = True
-print(k, type(k))
+        public static int peek() {
+            if(isEmpty()) {
+                return -1;
+            }
+            Node top = head;
+            return top.data;
+        }
+    }
 
-#binar types----
-r = b'hello'
-print(r, type(r))
+    public static void main(String args[]) {
+        Stack stack = new Stack();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
 
-u = bytearray(10)
-print(u, type(u))
-
-mn = memoryview(bytes(20))
-print(mn, type(mn))
+        while(!stack.isEmpty()) {
+            System.out.println(stack.peek());
+            stack.pop();
+        }
+    }
+}
