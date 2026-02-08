@@ -1,46 +1,46 @@
-# Welcome to My GitHub Profile
+<div align="center">
+  
+### 🚀 Developer | 🎨 Creator | 💡 Problem Solver
 
-## 🚀 About Me
+*Building digital experiences one commit at a time*
 
-I am an advanced top 1% professional in my field. Here’s a showcase of my skills and contributions.
-
-## 🌟 Highlights
-
-- **Animated Header**: <h2 style='animation: fadeIn 2s;'>Welcome to My Profile!</h2>
-- **Gradient Text**: <span style='background: linear-gradient(to right, #f06, #4a90e2); color: transparent; -webkit-background-clip: text;'>This is Gradient Text!</span>
-
-## 📊 Stats
-
-<div style='display: flex; justify-content: space-between;'>
-  <p>Total Repositories: 50</p>
-  <p>Total Stars: 1500</p>
-  <p>Followers: 300</p>
 </div>
 
-## 🛠️ Technologies
+---
 
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript&logoColor=F7DF1E)
+## 🌟 About Me
+```typescript
+const nayem = {
+    location: "Pabna, Bangladesh",
+    interests: ["coding", "innovation", "learning"],
+    currentFocus: "Creating something awesome",
+    funFact: "I debug with console.log and I'm not ashamed"
+};
+```
+## 🎯 Current Mission
 
-## 💼 Projects Showcase
+- 🌱 Learning and growing every day
+- 🔭 Working on projects that matter
+- 💬 Open to collaboration and new ideas
+- ⚡ Always ready for the next challenge
 
-1. **Project One**: Description of project one...
-2. **Project Two**: Description of project two...
+## 🤝 Let's Connect
 
-## 🌐 Contribution Graph
+<div align="center">
 
-![Contribution Graph](https://github.com/nfsnayem/nfsnayem/graphs/contributors)  
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nfsnayem)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nfsnayemkhan@gmail.com)
 
-## ✨ Custom CSS Animations
+</div>
 
-<style>
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-</style>
+---
 
----  
+<div align="center">
 
-### 📫 How to Reach Me  
-Feel free to reach out via my [LinkedIn](https://www.linkedin.com/in/nfsnayem) or [Email](mailto:nfsnayem@example.com).
+### 👀 Profile Views
 
+![](https://komarev.com/ghpvc/?username=nfsnayem)
+
+**✨ "Code is like humor. When you have to explain it, it's bad." ✨**
+
+</div>
