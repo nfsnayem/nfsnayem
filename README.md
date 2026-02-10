@@ -2,7 +2,7 @@
   
 ### 🚀 Developer | 🎨 Creator | 💡 Problem Solver
 
-*Building digital experiences one commit at a time*
+*Welcome to my GitHub profile! Here, I share my programming journey, showcase the projects I’m building, and highlight the technologies I’m learning along the way.*
 
 </div>
 
